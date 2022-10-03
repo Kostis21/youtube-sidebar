@@ -19,13 +19,39 @@ body{
 
 
 header {
-    box-shadow: 0px 1px 7px black;
+    box-shadow: 0px 1px 3px gray;
+}
+
+.left-side {
+    text-align: center;
+    align-items: center;
+    border-right: solid 1px gray;
+    width: 200px;
+    height: 100%;
+    
 }
 
 .menu-icon-btn {
-    width: 60px;
+    width: 50px;
     background: none;
     border: 0px;
     cursor: pointer;
 }
 
+.left-side img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.left-side h1 {
+    font-size: 20px;
+}
+
+.main-page {
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+    margin-left: 15px;
+}
